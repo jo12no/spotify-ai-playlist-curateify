@@ -116,7 +116,7 @@ class SpotifyService:
                 list_of_track_ids_to_add.append(sp_track_id)
 
                 print(
-                    f"#{idx+1} of {len(list_of_tracks_to_process)}. {len(list_of_tracks_to_process) - idx} remain. searched for: {track}"
+                    f"#{idx+1} of {len(list_of_tracks_to_process)}. searched for: {track}"
                 )
                 print(
                     f"returned: {result['tracks']['items'][0]['artists'][0]['name']} - {result['tracks']['items'][0]['name']}"
