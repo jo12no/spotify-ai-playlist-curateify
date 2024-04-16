@@ -1,6 +1,6 @@
 # Spotify AI Playlist: Curateify 🎧🤖
 
-An experimental application designed to automate the curation of Spotify playlists via inference with multiple AI models. It supports multiple data sources including:
+An experimental CLI application designed to automate the curation of Spotify playlists via inference with multiple AI models. It supports multiple data sources including:
 1) GPT & Gemini model outputs
 2) Spotify API (`get-recommendations` endpoint).
 3) Local .txt file (list of tracks or artist names exported from any service). 
@@ -43,4 +43,4 @@ pip install -r requirements.txt
 
 ## Considerations/Acknowledgments
 
-- Thanks for Spotify for providing a great API and the `spotipy` library! 
+- Thanks to Spotify for providing a great API and the `spotipy` library! 
