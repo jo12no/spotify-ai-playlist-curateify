@@ -10,7 +10,6 @@ An experimental application designed to automate the curation of Spotify playlis
 - **Personalised Suggestions**: tuned towards "less mainstream" and "less popular" choices to enhance the discoverability of lesser-known artists who are typically overlooked by standard recommendations on the platform, but still receptive to user prompts. 
 - **Playlist Management**: Create new playlists or update existing ones using Spotify's API.
 - **User Interactions**: Simple prompts guide users through track selection and playlist configuration.
-- **Session prompt to tune the AI**: .
 - **Advanced Processing**: Choose to process tracks individually or by artist for tailored playlist curation.
 
 
