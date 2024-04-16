@@ -3,7 +3,7 @@
 An experimental application designed to automate the curation of Spotify playlists via inference with multiple AI models. It supports multiple data sources including:
 1) GPT & Gemini model outputs
 2) Spotify API (`get-recommendations` endpoint).
-3) Local .txt file (list of tracks or tracks exported from any service). 
+3) Local .txt file (list of tracks or artist names exported from any service). 
 
 ## Features
 
