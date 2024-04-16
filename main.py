@@ -226,6 +226,7 @@ def main():
     input_source = input(
         "\nSelect data source: from [f]ile or [g]pt or [v]ertex or [s]potify > "
     )
+    print("\n===")
     input_handler = InputHandler()
     tracks_to_add = input_handler.fetch_tracklist(input_source, service)
 
@@ -233,6 +234,7 @@ def main():
         print("Quitting..")
         quit()
 
+    print("\n===")
     use_existing_playlist = input_handler.create_new_playlist_or_existing()
     if use_existing_playlist:
         playlist_id = input(
@@ -261,6 +263,7 @@ def main():
         # Input from spotify (via tuple)...  skip trackId lookup.
         track_ids = tracks_to_add[1]
 
+    print("\n===")
     service.add_track_ids_to_playlist(track_ids, playlist_id)
 
 
