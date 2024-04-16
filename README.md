@@ -22,6 +22,9 @@ To run the application, simply run it from your command line:
 
 You can customize `config.py` for settings. 
 
+## Example flow
+
+
 ## Installation
 
 Before running the script, you need to ensure you have Python installed on your system and the necessary Python package:
