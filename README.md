@@ -23,6 +23,7 @@ To run the application, simply run it from your command line:
 You can customize `config.py` for settings. 
 
 ## Example flow
+<img width="793" alt="example" src="https://github.com/jo12no/spotify-ai-playlist-curateify/assets/19522573/1b204a18-2461-4ec3-a541-4c599a153b10">
 
 
 ## Installation
