@@ -148,11 +148,12 @@ class SpotifyService:
                 for x in result["tracks"]["items"]:
                     sp_track_id = x["id"]
                     list_of_track_ids_to_add.append(sp_track_id)
+                    print(f"returned: {x['artists'][0]['name']} - {x['name']}")
 
                 print(
                     f"#{idx+1} of {len(list_of_tracks_to_process)}. {len(list_of_tracks_to_process) - idx} remain. searched for: {artist}"
                 )
-                print(f"returned: {x['artists'][0]['name']} - {x['name']}")
+
                 time.sleep(3)
             except Exception as e:
                 print(f"Skipping artist due to a fatal error: {e}")
