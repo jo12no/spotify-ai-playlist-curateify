@@ -1,5 +1,7 @@
 # Spotify AI Playlist: Curateify 🎧🤖
 
+TL:DR - End to end automated to Spotify, prompt a LLM for a custom playlist (eg. `"for fans of tame impala on a rainy morning:`) from your terminal. Alternatively, can use a `.txt` file with format `artist - track` and automatically make a playlist. 
+
 An experimental CLI application designed to automate the curation of Spotify playlists via inference with multiple AI models. It supports multiple data sources including:
 1) GPT & Gemini model outputs
 2) Spotify API (`get-recommendations` endpoint).
