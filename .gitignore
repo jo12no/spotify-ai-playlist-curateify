@@ -1,6 +1,3 @@
-# Project stuff
-list_of_tracks.txt
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -15,6 +12,8 @@ build/
 develop-eggs/
 dist/
 downloads/
+# Claude AI settings
+.claude/
 eggs/
 .eggs/
 lib/

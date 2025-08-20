@@ -1,6 +1,5 @@
-from vertexai.preview.generative_models import GenerativeModel  # enterprise
 import config
-
+from vertexai.generative_models import GenerativeModel
 
 class GeminiFetcher:
     """
@@ -9,6 +8,7 @@ class GeminiFetcher:
     This class encapsulates the functionality to interact with the Gemini Pro model,
     providing an interface to send prompts and receive generated content.
     """
+
     def __init__(self):
         """
         Initializes a new instance of the GeminiFetcher class, setting up
@@ -17,9 +17,12 @@ class GeminiFetcher:
         """
         MODEL_NAME = config.GeminiConfig.MODEL_NAME
         MODEL_PARAMS = config.GeminiConfig.MODEL_PARAMS
+        SAFETY_SETTINGS = config.GeminiConfig.SAFETY_SETTINGS
 
         self.gemini_client = GenerativeModel(
-            model_name=MODEL_NAME, generation_config=MODEL_PARAMS
+            model_name=MODEL_NAME,
+            generation_config=MODEL_PARAMS,
+            safety_settings=SAFETY_SETTINGS,
         )
 
     def fetch_gemini_response(self):
